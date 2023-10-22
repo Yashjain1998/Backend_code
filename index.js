@@ -41,11 +41,11 @@ app.set('layout', './layouts/main');
 app.set('view engine', 'ejs');
 
 // Routes
-// app.use('/', require('./server/routes/customer'))
+app.use('/', require('./server/routes/customer'))
 
-app.get("/",(req,res)=>{
-  res.send("hello... how r u");
-})
+// app.get("/",(req,res)=>{
+//   res.send("hello... how r u");
+// })
 
 // Handle 404
 // app.get('*', (req, res) => {
