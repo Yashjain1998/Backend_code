@@ -41,7 +41,7 @@ app.set('layout', './layouts/main');
 app.set('view engine', 'ejs');
 
 // Routes
-app.use('/', require('./server/routes/customer'))
+// app.use('/', require('./server/routes/customer'))
 
 app.get("/",(req,res)=>{
   res.send("hello...");
